@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036818D41E52D0C90065DEAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818D31E52D0C90065DEAB /* main.m */; };
+		036818D71E52D0C90065DEAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818D61E52D0C90065DEAB /* AppDelegate.m */; };
+		036818DA1E52D0C90065DEAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818D91E52D0C90065DEAB /* ViewController.m */; };
+		036818DD1E52D0C90065DEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036818DB1E52D0C90065DEAB /* Main.storyboard */; };
+		036818DF1E52D0C90065DEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036818DE1E52D0C90065DEAB /* Assets.xcassets */; };
+		036818E21E52D0C90065DEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036818E01E52D0C90065DEAB /* LaunchScreen.storyboard */; };
+		036818FC1E52D14C0065DEAB /* DQActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818EB1E52D14C0065DEAB /* DQActivityIndicatorView.m */; };
+		036818FD1E52D14C0065DEAB /* DQRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818ED1E52D14C0065DEAB /* DQRefresh.m */; };
+		036818FE1E52D14C0065DEAB /* DQRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818EF1E52D14C0065DEAB /* DQRefreshFooter.m */; };
+		036818FF1E52D14C0065DEAB /* DQRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818F11E52D14C0065DEAB /* DQRefreshHeader.m */; };
+		036819001E52D14C0065DEAB /* loading_centerMonkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036818F21E52D14C0065DEAB /* loading_centerMonkey@2x.png */; };
+		036819011E52D14C0065DEAB /* loading_centerMonkey@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036818F31E52D14C0065DEAB /* loading_centerMonkey@3x.png */; };
+		036819021E52D14C0065DEAB /* pullRefreshArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036818F41E52D14C0065DEAB /* pullRefreshArrow@2x.png */; };
+		036819031E52D14C0065DEAB /* pullRefreshArrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036818F51E52D14C0065DEAB /* pullRefreshArrow@3x.png */; };
+		036819041E52D14C0065DEAB /* pullRefreshTip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036818F61E52D14C0065DEAB /* pullRefreshTip@2x.png */; };
+		036819051E52D14C0065DEAB /* pullRefreshTip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 036818F71E52D14C0065DEAB /* pullRefreshTip@3x.png */; };
+		036819061E52D14C0065DEAB /* UIScrollView+DQRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818F91E52D14C0065DEAB /* UIScrollView+DQRefresh.m */; };
+		036819071E52D14C0065DEAB /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036818FB1E52D14C0065DEAB /* RefreshViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036818CF1E52D0C90065DEAB /* DQRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036818D31E52D0C90065DEAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		036818D51E52D0C90065DEAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		036818D61E52D0C90065DEAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		036818D81E52D0C90065DEAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		036818D91E52D0C90065DEAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		036818DC1E52D0C90065DEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036818DE1E52D0C90065DEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036818E11E52D0C90065DEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036818E31E52D0C90065DEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036818EA1E52D14C0065DEAB /* DQActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQActivityIndicatorView.h; sourceTree = "<group>"; };
+		036818EB1E52D14C0065DEAB /* DQActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQActivityIndicatorView.m; sourceTree = "<group>"; };
+		036818EC1E52D14C0065DEAB /* DQRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQRefresh.h; sourceTree = "<group>"; };
+		036818ED1E52D14C0065DEAB /* DQRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQRefresh.m; sourceTree = "<group>"; };
+		036818EE1E52D14C0065DEAB /* DQRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQRefreshFooter.h; sourceTree = "<group>"; };
+		036818EF1E52D14C0065DEAB /* DQRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQRefreshFooter.m; sourceTree = "<group>"; };
+		036818F01E52D14C0065DEAB /* DQRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQRefreshHeader.h; sourceTree = "<group>"; };
+		036818F11E52D14C0065DEAB /* DQRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQRefreshHeader.m; sourceTree = "<group>"; };
+		036818F21E52D14C0065DEAB /* loading_centerMonkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_centerMonkey@2x.png"; sourceTree = "<group>"; };
+		036818F31E52D14C0065DEAB /* loading_centerMonkey@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading_centerMonkey@3x.png"; sourceTree = "<group>"; };
+		036818F41E52D14C0065DEAB /* pullRefreshArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullRefreshArrow@2x.png"; sourceTree = "<group>"; };
+		036818F51E52D14C0065DEAB /* pullRefreshArrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullRefreshArrow@3x.png"; sourceTree = "<group>"; };
+		036818F61E52D14C0065DEAB /* pullRefreshTip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullRefreshTip@2x.png"; sourceTree = "<group>"; };
+		036818F71E52D14C0065DEAB /* pullRefreshTip@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pullRefreshTip@3x.png"; sourceTree = "<group>"; };
+		036818F81E52D14C0065DEAB /* UIScrollView+DQRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DQRefresh.h"; sourceTree = "<group>"; };
+		036818F91E52D14C0065DEAB /* UIScrollView+DQRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DQRefresh.m"; sourceTree = "<group>"; };
+		036818FA1E52D14C0065DEAB /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
+		036818FB1E52D14C0065DEAB /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036818CC1E52D0C90065DEAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036818C61E52D0C90065DEAB = {
+			isa = PBXGroup;
+			children = (
+				036818D11E52D0C90065DEAB /* DQRefresh */,
+				036818D01E52D0C90065DEAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036818D01E52D0C90065DEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036818CF1E52D0C90065DEAB /* DQRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036818D11E52D0C90065DEAB /* DQRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				036818E91E52D14C0065DEAB /* DQRefresh */,
+				036818D51E52D0C90065DEAB /* AppDelegate.h */,
+				036818D61E52D0C90065DEAB /* AppDelegate.m */,
+				036818D81E52D0C90065DEAB /* ViewController.h */,
+				036818D91E52D0C90065DEAB /* ViewController.m */,
+				036818FA1E52D14C0065DEAB /* RefreshViewController.h */,
+				036818FB1E52D14C0065DEAB /* RefreshViewController.m */,
+				036818DB1E52D0C90065DEAB /* Main.storyboard */,
+				036818DE1E52D0C90065DEAB /* Assets.xcassets */,
+				036818E01E52D0C90065DEAB /* LaunchScreen.storyboard */,
+				036818E31E52D0C90065DEAB /* Info.plist */,
+				036818D21E52D0C90065DEAB /* Supporting Files */,
+			);
+			path = DQRefresh;
+			sourceTree = "<group>";
+		};
+		036818D21E52D0C90065DEAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				036818D31E52D0C90065DEAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		036818E91E52D14C0065DEAB /* DQRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				036818EA1E52D14C0065DEAB /* DQActivityIndicatorView.h */,
+				036818EB1E52D14C0065DEAB /* DQActivityIndicatorView.m */,
+				036818EC1E52D14C0065DEAB /* DQRefresh.h */,
+				036818ED1E52D14C0065DEAB /* DQRefresh.m */,
+				036818EE1E52D14C0065DEAB /* DQRefreshFooter.h */,
+				036818EF1E52D14C0065DEAB /* DQRefreshFooter.m */,
+				036818F01E52D14C0065DEAB /* DQRefreshHeader.h */,
+				036818F11E52D14C0065DEAB /* DQRefreshHeader.m */,
+				036818F21E52D14C0065DEAB /* loading_centerMonkey@2x.png */,
+				036818F31E52D14C0065DEAB /* loading_centerMonkey@3x.png */,
+				036818F41E52D14C0065DEAB /* pullRefreshArrow@2x.png */,
+				036818F51E52D14C0065DEAB /* pullRefreshArrow@3x.png */,
+				036818F61E52D14C0065DEAB /* pullRefreshTip@2x.png */,
+				036818F71E52D14C0065DEAB /* pullRefreshTip@3x.png */,
+				036818F81E52D14C0065DEAB /* UIScrollView+DQRefresh.h */,
+				036818F91E52D14C0065DEAB /* UIScrollView+DQRefresh.m */,
+			);
+			path = DQRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036818CE1E52D0C90065DEAB /* DQRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036818E61E52D0C90065DEAB /* Build configuration list for PBXNativeTarget "DQRefresh" */;
+			buildPhases = (
+				036818CB1E52D0C90065DEAB /* Sources */,
+				036818CC1E52D0C90065DEAB /* Frameworks */,
+				036818CD1E52D0C90065DEAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DQRefresh;
+			productName = DQRefresh;
+			productReference = 036818CF1E52D0C90065DEAB /* DQRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036818C71E52D0C90065DEAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dqfeng;
+				TargetAttributes = {
+					036818CE1E52D0C90065DEAB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 036818CA1E52D0C90065DEAB /* Build configuration list for PBXProject "DQRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036818C61E52D0C90065DEAB;
+			productRefGroup = 036818D01E52D0C90065DEAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036818CE1E52D0C90065DEAB /* DQRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036818CD1E52D0C90065DEAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036818E21E52D0C90065DEAB /* LaunchScreen.storyboard in Resources */,
+				036819021E52D14C0065DEAB /* pullRefreshArrow@2x.png in Resources */,
+				036819051E52D14C0065DEAB /* pullRefreshTip@3x.png in Resources */,
+				036819031E52D14C0065DEAB /* pullRefreshArrow@3x.png in Resources */,
+				036819041E52D14C0065DEAB /* pullRefreshTip@2x.png in Resources */,
+				036819011E52D14C0065DEAB /* loading_centerMonkey@3x.png in Resources */,
+				036819001E52D14C0065DEAB /* loading_centerMonkey@2x.png in Resources */,
+				036818DF1E52D0C90065DEAB /* Assets.xcassets in Resources */,
+				036818DD1E52D0C90065DEAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036818CB1E52D0C90065DEAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036818DA1E52D0C90065DEAB /* ViewController.m in Sources */,
+				036818FF1E52D14C0065DEAB /* DQRefreshHeader.m in Sources */,
+				036819071E52D14C0065DEAB /* RefreshViewController.m in Sources */,
+				036819061E52D14C0065DEAB /* UIScrollView+DQRefresh.m in Sources */,
+				036818D71E52D0C90065DEAB /* AppDelegate.m in Sources */,
+				036818FD1E52D14C0065DEAB /* DQRefresh.m in Sources */,
+				036818FE1E52D14C0065DEAB /* DQRefreshFooter.m in Sources */,
+				036818FC1E52D14C0065DEAB /* DQActivityIndicatorView.m in Sources */,
+				036818D41E52D0C90065DEAB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		036818DB1E52D0C90065DEAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036818DC1E52D0C90065DEAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036818E01E52D0C90065DEAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036818E11E52D0C90065DEAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036818E41E52D0C90065DEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		036818E51E52D0C90065DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036818E71E52D0C90065DEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DQRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqfeng.DQRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		036818E81E52D0C90065DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DQRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dqfeng.DQRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036818CA1E52D0C90065DEAB /* Build configuration list for PBXProject "DQRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036818E41E52D0C90065DEAB /* Debug */,
+				036818E51E52D0C90065DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036818E61E52D0C90065DEAB /* Build configuration list for PBXNativeTarget "DQRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036818E71E52D0C90065DEAB /* Debug */,
+				036818E81E52D0C90065DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 036818C71E52D0C90065DEAB /* Project object */;
+}
