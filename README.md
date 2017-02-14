@@ -3,7 +3,7 @@
 ##DQRefresh是一个轻量并且容易扩展的下拉及上拉刷新组件
 
 ##描述
-- 使用DQRefresh一个抽象类封装下拉刷新和上拉刷新触发逻辑，并跟踪下拉和上拉距离触发刷新的进度，使用的时候只要继承DQRefresh只考虑自定义UI展示即可。
+- DQRefresh是一个抽象类封装了下拉刷新和上拉刷新触发逻辑，并跟踪下拉和上拉距离触发刷新的进度，使用的时候只要继承DQRefresh只考虑自定义UI展示即可。
 - demo中已经实现了自定义的下拉刷新组件`DQRefreshHeader.m`/`DQRefreshHeader.h`和上拉加载更多组件`DQRefreshFooter.m`/`DQRefreshFooter.h`。
 - 支持自定义触发刷新进度视图。
 - 支持自定义刷新中的动画。
